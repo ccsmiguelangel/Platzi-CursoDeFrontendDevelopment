@@ -5,31 +5,47 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-
+</head>
   <style>
-    * {
-      background-color: papayawhip;
+
+    div p {
+      color: lime;
     }
-    div {
-      background: pink;
+
+    div > div {
+      background: plum;
     }
-    .titulo {
-      color: blueviolet;
+
+    .es {
+      background:red ;
     }
-    #titulo2 {
-      color: brown;
+
+    div + section {
+      background: palevioletred;
     }
-    a[href="platzi.com"]{
-      color:blue;
+    div ~ p {
+      color: powderblue;
     }
   </style>
-</head>
+
 <body>
   <!-- <div>
-    Hola Mundo
+    <p>Platzi</p>
+    <p>Es</p>
+    <p>Increíble</p>
   </div> -->
-  <div class="titulo">Hola</div>
-  <div id="titulo2">Mundo</div>
-  <a href="platzi.com">Go to platzi</a>
+
+  <div>
+    <p>Platzi</p>
+    <div class="es">Es</div>
+  </div>
+  <p>Clase de selectores</p>
+  <p>Clase de selectores</p>
+  <section>
+    Es lo mejor
+  </section>
+  <div>
+    Master
+  </div>
 </body>
 </html>
