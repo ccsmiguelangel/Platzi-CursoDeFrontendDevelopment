@@ -7,18 +7,36 @@
   <title>Document</title>
 
   <style>
-    div#platzi.master {
-      color: springgreen;
+    body {
+      margin: 0;
     }
-    #platzi {
-      color: red;
+    div {
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+      background:salmon;
     }
-    .master {
-      color: springgreen;
+    a{
+      /* Los tipo en linea no tienen valides con widht & height */
+      width: 200px;
+      height: 200px;
+      /* Los margin solo se aplican a los lados y no arriba y abajo */
+      margin: 20px;
+      background-color: skyblue;
+    }
+
+    button {
+      /* Es inline block y puede tener widht hight  */
+      width: 200px;
+      height: 200px;
+
+      background: slateblue;
     }
   </style>
 </head>
 <body>
-  <div id="platzi" class="master">Platzi</div>
+  <div>bloque</div>
+  <a href="/">inline</a>
+  <button>inlineblock</button>
 </body>
 </html>
