@@ -7,43 +7,18 @@
   <title>Document</title>
 
   <style>
-    p{
-      color: salmon;
+    div#platzi.master {
+      color: springgreen;
     }
-    p:hover {
-      color: skyblue;
+    #platzi {
+      color: red;
     }
-
-    div p:nth-child(2) {
-      color:violet;
-    }
-
-    p::first-letter{
-      color:teal;
-    }
-
-    p::before{
-      content: "🌟"
-    }
-    p::after {
-      content: "🌠";
-    }
-
-    input::placeholder{
-      color: tomato;
+    .master {
+      color: springgreen;
     }
   </style>
 </head>
 <body>
-  
-
-  <p>Hola</p>
-  <div>
-    <p>Platzi</p>
-    <p>Master</p>
-    <p>Lo Mejor</p>
-  </div>
-
-  <input type="text" placeholder="Nombre">
+  <div id="platzi" class="master">Platzi</div>
 </body>
 </html>
