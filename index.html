@@ -7,36 +7,41 @@
   <title>Document</title>
 
   <style>
-    body {
-      margin: 0;
-    }
-    div {
-      width: 200px;
-      height: 200px;
-      margin: 20px;
-      background:salmon;
-    }
-    a{
-      /* Los tipo en linea no tienen valides con widht & height */
-      width: 200px;
-      height: 200px;
-      /* Los margin solo se aplican a los lados y no arriba y abajo */
-      margin: 20px;
-      background-color: skyblue;
-    }
 
-    button {
-      /* Es inline block y puede tener widht hight  */
-      width: 200px;
+    .container {
+      /* display flex solo se coloca en los contenedores padres para usar sus propiedades */
+      display: flex;
+      /* justify-content: space-between; */
+      justify-content: center;
+      /* align-items: center; */
+
+      /* cambiar eje */
+      flex-direction: column; /*row default*/
+
+
+
       height: 200px;
 
-      background: slateblue;
+      background-color: papayawhip;
+
+    }
+
+    .container .item:nth-child(2n+1) {
+      background: cyan;
+    }
+    .item {
+      width: 30px;
+      height: 30px;
+      background-color: purple;
     }
   </style>
 </head>
 <body>
-  <div>bloque</div>
-  <a href="/">inline</a>
-  <button>inlineblock</button>
+  <div class="container">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
 </body>
 </html>
