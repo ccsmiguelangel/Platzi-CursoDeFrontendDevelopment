@@ -7,130 +7,48 @@
   <title>Document</title>
 
   <style>
-  .container{
-    width: 200px;
-    height: 200px;
-    background-color: papayawhip;
-    position: relative;
-    top: 20px;
-  }
+    div{
+      position: absolute;
+      background-color: palegoldenrod;
+    }
+    .one{
+      z-index: 5;
+    }
+    .two{
+      z-index: 4;
+    }
 
-  .item{
-    width: 20px;
-    height: 20px;
-    right: 0;
-    background-color: hotpink;
-    position: absolute;
-  }
-  nav{
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    background-color: lightcyan;
-  }
-  ul p{
-    /* hace que se quede como un titulo y siempre en el top mientras ves la lista */
-    top: 0;
-    position: sticky;
-  }
+    .red{
+      width: 200px;
+      height: 200px;
+      background: red;
+      z-index: 5;
+    }
+    .blue{
+      width: 200px;
+      height: 200px;
+      background-color: blue;
+      z-index: 4;
+    }
+    .yellow{
+      width: 200px;
+      height: 200px;
+      background-color: yellow;
+      z-index: 6;
+      top: -10px;
+    }
+/* Platzi prevalecera porque está debajo de él, se puede cambiar el orden */
   </style>
 </head>
 <body>
-  <nav>
+  <div class="one">Master</div>
+  <div class="two">Platzi</div>
 
-  </nav>
-  <div class="container">
-    <div class="item"></div>
-  </div>
-  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi dolores qui repellendus sint laborum, omnis dicta inventore deleniti ex quia aliquid quo tempora officiis a pariatur corporis ipsam facilis fugit.
-  Tempora ut repudiandae deleniti, ipsam dolores cum explicabo? Quo optio illo fuga aut voluptatum eius atque odio minima, cum error dolorum porro. Voluptatum at ducimus ratione? Aspernatur possimus sed provident!
-  Optio est ratione harum reiciendis aliquam ducimus inventore! Quos perspiciatis saepe in, voluptas aut minima fugit sunt, eos consectetur vero ullam praesentium accusantium eligendi harum maiores excepturi nisi necessitatibus. Quis!
-  Id aut harum fugit. Quo, hic. Quas dolores expedita omnis vero. Quaerat itaque omnis sed tempore vitae necessitatibus doloribus ipsam aut reiciendis voluptatum! Quasi atque repellat aspernatur. Reprehenderit, laboriosam! Error.
-  Dolorum labore atque, cum, nobis magnam voluptatibus sapiente non, molestiae ut itaque asperiores. Deserunt, maxime recusandae veritatis blanditiis doloribus iure qui laborum minima dolorum! Possimus natus ea architecto ipsam aspernatur.
-  A ad aliquam beatae. Eos iure cum, repellat hic at iste, dolorum voluptates voluptatem porro mollitia modi deleniti incidunt repellendus laudantium, quasi ducimus quae temporibus animi facilis a vel. Totam?
-  Quam enim, nisi, quia corporis quibusdam nulla deleniti omnis repudiandae sint, tenetur modi veritatis fugit voluptatem nesciunt soluta consequatur fuga. Cupiditate quisquam soluta id officiis perferendis suscipit aliquid enim voluptates.
-  Velit sapiente culpa nam reiciendis similique ad error nesciunt ullam. Nobis tenetur consequuntur assumenda facere cumque numquam voluptate temporibus nisi corrupti accusamus minus nesciunt, deserunt necessitatibus repudiandae consequatur officia blanditiis!
-  Ad quo doloribus, quidem, soluta quis quasi temporibus ratione sint porro nam optio. Quisquam fugit fugiat quo impedit eveniet debitis nobis, est provident sapiente ipsum necessitatibus in distinctio incidunt nulla!
-  Maiores suscipit voluptatum, recusandae ea unde debitis explicabo laudantium est eligendi nostrum quo ipsa quis cum laborum ut magni, aliquam possimus. Sequi cum est, adipisci fugiat doloremque incidunt dolore praesentium.
-  Pariatur dolor, id dolorem ullam nesciunt nobis ex voluptate tenetur, quis minus eaque ut! Ratione doloribus amet deleniti incidunt sint dignissimos, quidem eveniet necessitatibus id. Blanditiis suscipit eos sunt asperiores?
-  Sapiente, sunt dignissimos. Consequuntur nulla quis reprehenderit, accusamus numquam officia debitis earum necessitatibus quos quidem dignissimos quas esse ratione excepturi ea tempore maiores nostrum optio perspiciatis ad libero repellat. Molestias!
-  Iste ad ratione rerum asperiores soluta dicta quas odio saepe culpa, voluptatem nostrum impedit quam laudantium explicabo dolorum sunt placeat harum error numquam deserunt? Ullam, molestiae? Recusandae at qui vitae!
-  Architecto veniam tempora ab optio, ipsam quidem molestias quas numquam. Inventore fuga repudiandae corrupti aut et amet, cupiditate officia reiciendis eligendi recusandae dolores at, dolorem atque dolorum quidem commodi porro.
-  Recusandae eaque facere ab, quasi sapiente nostrum nisi, ipsum unde saepe minus quod delectus a maiores officia. Repudiandae, necessitatibus quis? Voluptatibus odit asperiores dolorum sint? Mollitia molestiae cumque neque molestias!
-  Fugiat, assumenda officiis, quibusdam inventore at ex tempore quia aut et provident atque sapiente animi sit enim, ut deserunt neque consectetur sed ullam nihil amet hic voluptas beatae. Tempora, molestias?
-  Molestias in nemo officia consequuntur autem laudantium quos laborum rem, aliquam id repellendus ipsum assumenda? Distinctio, animi odit optio et error assumenda? Autem ipsa mollitia officiis eum, veritatis optio ab.
-  Obcaecati natus ipsam nesciunt reiciendis nemo unde voluptatem, possimus dolor magni officia pariatur quas ipsa. Praesentium rem minima eligendi molestiae iste, reprehenderit delectus deserunt animi autem nesciunt, suscipit rerum eveniet.
-  Labore, excepturi! Atque cumque fuga, autem non sunt numquam, fugit impedit eum, cupiditate quidem nisi aliquam! Enim, facilis, rem amet itaque totam, est consequuntur neque dolores eius repudiandae distinctio reiciendis?
-  Illum cupiditate architecto necessitatibus facilis dicta voluptatem? Praesentium, temporibus. Iste aut laudantium animi error possimus amet optio repellat id ea impedit excepturi ullam dignissimos fuga, architecto numquam illo! Inventore, ullam!</div>
-
-  <div>
-    <ul>
-      <p>Frutas</p>
-      <li>Manzana</li>
-      <li>Pera</li>
-      <li>Sandia</li>
-      <li>Cambur</li>
-      <li>Manzana</li>
-      <li>Pera</li>
-      <li>Sandia</li>
-      <li>Cambur</li>
-    </ul>
-    <ul>
-      <p>Frutas</p>
-      <li>Manzana</li>
-      <li>Pera</li>
-      <li>Sandia</li>
-      <li>Cambur</li>
-    </ul>
-    <ul>
-      <p>Frutas</p>
-      <li>Manzana</li>
-      <li>Pera</li>
-      <li>Sandia</li>
-      <li>Cambur</li>
-    </ul>
-    <ul>
-      <p>Frutas</p>
-      <li>Manzana</li>
-      <li>Pera</li>
-      <li>Sandia</li>
-      <li>Cambur</li>
-    </ul>
-    <ul>
-      <p>Frutas</p>
-      <li>Manzana</li>
-      <li>Pera</li>
-      <li>Sandia</li>
-      <li>Cambur</li>
-    </ul>
-    <ul>
-      <p>Frutas</p>
-      <li>Manzana</li>
-      <li>Pera</li>
-      <li>Sandia</li>
-      <li>Cambur</li>
-    </ul>
-    <ul>
-      <p>Frutas</p>
-      <li>Manzana</li>
-      <li>Pera</li>
-      <li>Sandia</li>
-      <li>Cambur</li>
-    </ul>
-    <ul>
-      <p>Frutas</p>
-      <li>Manzana</li>
-      <li>Pera</li>
-      <li>Sandia</li>
-      <li>Cambur</li>
-    </ul>
-    <ul>
-      <p>Frutas</p>
-      <li>Manzana</li>
-      <li>Pera</li>
-      <li>Sandia</li>
-      <li>Cambur</li>
-    </ul>
-  </div>
+  <section>
+    <div class="red">Red</div>
+    <div class="blue">Blue
+      <div class="yellow">Yellow</div>
+    </div>
+  </section>
 </body>
 </html>
