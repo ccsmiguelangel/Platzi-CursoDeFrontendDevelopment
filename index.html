@@ -7,33 +7,31 @@
   <title>Document</title>
 
   <style>
-    html{
-      font-size: 62.5%;
-    }
+    /* Valor global que va debajo de la medida del media query */
     div{
-      width: 100px;
-      height: 100px;
-      background-color: pink;
+      background: purple;
     }
-    p{
-      font-size: 3rem;
+    /* 
+    @media(min-width:300px){
+      • 300px en adelante
+      div{
+        background: chocolate;
+      }
+    } 
+    */
+
+    @media(max-width:300px){
+      /* 300px por debajo */
+      div{
+        background: chocolate;
+      }
     }
 
-    body{
-      margin: 0;
-    }
-    .container{
-      width: 100vw;
-      height: 100vh;
-      background-color: plum;
-    }
   </style>
 </head>
 <body>
   <div>
-    Platzi
+    Platzi Master
   </div>
-  <p>Master</p>
-  <div class="container"></div>
 </body>
 </html>
