@@ -5,49 +5,35 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
   <style>
-    section{
-      display: flex;
-      justify-content: center;
-
-      width: 100%;
+    html{
+      font-size: 62.5%;
+    }
+    div{
+      width: 100px;
+      height: 100px;
+      background-color: pink;
+    }
+    p{
+      font-size: 3rem;
     }
 
-    .card {
-      width: 300px;
-      height: 300px;
-
-      background: papayawhip;
-      border-radius: 20px;
-      /*Todo lo que se sale lo esconde, Hace que todos los elementos que estén dentro no rompan el fondo */
-      overflow: hidden;
+    body{
+      margin: 0;
     }
-    .card img {
-      width: 100%;
-    }
-
-    .card p{
-      font-family: Arial, Helvetica, sans-serif;
-      text-align: center;
-    }
-    /* Cuenta el div como primer hijo
-      .card p:nth-child(2){
-        color: turquoise;
-      } 
-    s*/
-      
-    .card p:nth-child(3){
-      color: turquoise;
+    .container{
+      width: 100vw;
+      height: 100vh;
+      background-color: plum;
     }
   </style>
 </head>
 <body>
-  <section>
-    <div class="card">
-      <img src="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?cs=srgb&dl=pexels-pixabay-416160.jpg&fm=jpg" alt="cat">
-      <p>Cat : Mini</p>
-      <p>Cat : Mini</p>
-    </div>
-  </section>
+  <div>
+    Platzi
+  </div>
+  <p>Master</p>
+  <div class="container"></div>
 </body>
 </html>
